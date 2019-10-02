@@ -26,9 +26,3 @@ public struct FontPicker {
         self.onCancel = onCancel
     }
 }
-
-struct FontPicker_Preview: PreviewProvider {
-    static var previews: some View {
-        FontPickerPreview()
-    }
-}

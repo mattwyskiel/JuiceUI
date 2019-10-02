@@ -19,9 +19,3 @@ public struct ShareSheet {
         self.customActivities = customActivities
     }
 }
-
-struct ShareSheet_Preview: PreviewProvider {
-    static var previews: some View {
-        ShareSheetPreview()
-    }
-}

@@ -25,11 +25,3 @@ public struct AppleIDAuthButton {
     var type: ASAuthorizationAppleIDButton.ButtonType = .default
     var cornerRadius: CGFloat? = nil
 }
-
-#if DEBUG
-struct AppleIDAuthButton_Previews: PreviewProvider {
-    static var previews: some View {
-        SignInView()
-    }
-}
-#endif

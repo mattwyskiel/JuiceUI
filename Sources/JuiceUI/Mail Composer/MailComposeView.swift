@@ -50,10 +50,3 @@ public struct MailComposeView {
     }
     
 }
-
-struct MailComposeView_Previews: PreviewProvider {
-    
-    static var previews: some View {
-        MailComposePreview()
-    }
-}

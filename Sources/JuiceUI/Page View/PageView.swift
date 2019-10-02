@@ -41,9 +41,3 @@ public struct PageView {
     }
     
 }
-
-struct PageView_Preview: PreviewProvider {
-    static var previews: some View {
-        PageViewPreview()
-    }
-}

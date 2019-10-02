@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "JuiceUI",
+        "repositoryURL": "/Users/matthewwyskiel/Documents/Developer/iOS/Libraries/JuiceUI",
+        "state": {
+          "branch": "master",
+          "revision": "17de996ceb31fc0c193172a3048531163ea81258",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
