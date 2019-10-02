@@ -10,7 +10,7 @@ import SwiftUI
 
 @_functionBuilder
 public class PageViewContentBuilder {
-    static func buildBlock(_ views: Page...) -> [UIViewController] {
+    public static func buildBlock(_ views: Page...) -> [UIViewController] {
         views.map(UIHostingController.init)
     }
 }
