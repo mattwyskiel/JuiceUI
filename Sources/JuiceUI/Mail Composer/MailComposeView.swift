@@ -18,7 +18,7 @@ public struct MailComposeView {
     var didSend: (() -> ())? = nil
     var message: MailMessage? = nil
     
-    
+    public init() { }
     
     func addMessage(to controller: MFMailComposeViewController) {
         if let message = message {
