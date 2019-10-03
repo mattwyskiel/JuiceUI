@@ -8,6 +8,7 @@
 
 import SwiftUI
 
+/// A function builder that allows us to display different kinds of views in the Page View
 @_functionBuilder
 public class PageViewContentBuilder {
     public static func buildBlock(_ views: Page...) -> [UIViewController] {

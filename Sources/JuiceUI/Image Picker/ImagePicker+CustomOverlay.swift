@@ -9,6 +9,8 @@
 import SwiftUI
 import CoreServices
 
+
+/// An image picker that supports a custom overlay
 public struct CustomOverlayImagePicker<OverlayView: View>: UIViewControllerRepresentable {
     
     public func makeCoordinator() -> ImagePicker.Coordinator {

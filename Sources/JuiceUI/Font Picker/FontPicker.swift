@@ -8,12 +8,16 @@
 
 import SwiftUI
 
+/// A SwiftUI View based on the UIFontPickerViewController in UIKit
 public struct FontPicker {
     
     var configuration: UIFontPickerViewController.Configuration
     var didPickFont: (UIFontDescriptor) -> ()
     var onCancel: (() -> Void)?
     
+    /// Initializes the Font Picker View
+    /// - Parameter configuration: A configuration object - see UIFontPickerViewController.Configuration for details
+    /// - Parameter didPickFont: A completion handler determining what to do with the selected font.
     public init(configuration: UIFontPickerViewController.Configuration = .init(), didPickFont: @escaping (UIFontDescriptor) -> ()) {
         self.configuration = configuration
         self.didPickFont = didPickFont

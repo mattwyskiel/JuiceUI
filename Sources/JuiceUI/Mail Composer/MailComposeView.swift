@@ -9,6 +9,7 @@
 import SwiftUI
 import MessageUI
 
+/// A SwiftUI View based on the MFMailViewController from MessageUI. Enables the user to send a mail message directly from within the app
 public struct MailComposeView {
     
     
@@ -18,6 +19,7 @@ public struct MailComposeView {
     var didSend: (() -> ())? = nil
     var message: MailMessage? = nil
     
+    /// Initializes the Mail Composer
     public init() { }
     
     func addMessage(to controller: MFMailComposeViewController) {
@@ -45,6 +47,7 @@ public struct MailComposeView {
         }
     }
     
+    /// Indicates whether the current device is able to send email. Depends on the Mail app being installed and an account added.
     public static func canSendMail() -> Bool {
         MFMailComposeViewController.canSendMail()
     }

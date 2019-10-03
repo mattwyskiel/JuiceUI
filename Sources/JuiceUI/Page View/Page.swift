@@ -10,6 +10,9 @@ import SwiftUI
 
 public struct Page: View {
     var content: AnyView
+    
+    /// Initializes a Page for a PageView
+    /// - Parameter content: <#content description#>
     public init<Content: View>(@ViewBuilder _ content: () -> Content) {
         self.content = AnyView(content())
     }

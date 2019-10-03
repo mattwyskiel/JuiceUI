@@ -9,8 +9,12 @@
 import SwiftUI
 import AuthenticationServices
 
+
+/// A SwiftUI View based on the ASAuthorizationAppleIDButton in AuthenticationServices. Enables the user to Sign In With Apple.
 public struct AppleIDAuthButton {
     
+    /// Initializes the Apple ID Auth Button
+    /// - Parameter requestedScopes: The permission scopes that the application is requesting
     public init(requestedScopes: [ASAuthorization.Scope]) {
         self.requestedScopes = requestedScopes
     }
