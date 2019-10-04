@@ -3,8 +3,6 @@
 //  JuiceUI
 //
 //  Created by Matthew Wyskiel on 8/2/19.
-//  Copyright © 2019 Matthew Wyskiel. All rights reserved.
-//
 
 import SwiftUI
 import AuthenticationServices

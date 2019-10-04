@@ -3,8 +3,6 @@
 //  JuiceUI
 //
 //  Created by Matthew Wyskiel on 8/6/19.
-//  Copyright © 2019 Matthew Wyskiel. All rights reserved.
-//
 
 import SwiftUI
 import JuiceUI
@@ -15,7 +13,7 @@ struct FontPickerPreview: View {
     
     var body: some View {
         VStack {
-            Text("Here is some funky text to add your funky font to.")
+            Text("Here is some funky text to add a font to.")
                 .font(Font.custom(fontName ?? "Arial", size: 17))
                 .lineLimit(3)
                 .padding()
