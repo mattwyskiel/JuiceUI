@@ -2,10 +2,11 @@
 
 A small collection of what I thought would be useful SwiftUI wrappers for common views in the iOS SDK. The goal is to fill in the gap a bit between what Apple integrated into SwiftUI and the components iOS developers actually use.
 
-This was also an excuse for me to play around with SwiftUI and release a Swift Package, so there's that.
+This was also an excuse for me to play around with SwiftUI and release my first Swift Package, so there's that.
 
 ## Installation
-Simply go into you Xcode project, go to **File > Swift Packages > Add Package Dependency** and provide the URL to this repository (`https://github.com/mattwyskiel/JuiceUI.git`) and have it pull from **master**.
+
+Simply go into your Xcode project, go to **File > Swift Packages > Add Package Dependency** and provide the URL to this repository (`https://github.com/mattwyskiel/JuiceUI.git`) and have it pull from **master**.
 
 ## Components
 
@@ -122,6 +123,7 @@ ZStack{
 ```
 
 ## Demo
+
 Want to see all of this in more detail? See the `JuiceUI Previews.xcodeproj` in the `Demo` folder.
 
 ## License
